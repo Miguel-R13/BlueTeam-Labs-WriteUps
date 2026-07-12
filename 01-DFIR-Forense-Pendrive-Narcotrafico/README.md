@@ -1,4 +1,4 @@
-# 01 · DFIR — Análisis Forense de Pendrive · Narcotráfico
+# 01 · DFIR  Análisis Forense de Pendrive · Narcotráfico
 
 > **Categoría:** DFIR · Forense Digital
 > **Herramientas:** FTK Imager · Kali Purple · Thunderbird
