@@ -3,7 +3,7 @@
 > **Categoría:** Incident Response · SOC · Blue Team
 > **Herramientas:** Elastic Security · Kibana · IRIS
 
-📄 [Ver informe técnico completo (PDF)](./informe/MIGUEL-REGUERO-CASO-PRACTICO-RESPUESTA-INCIDENTES.pdf)
+📄 [Ver informe técnico completo (PDF)](./informe/LAB-ELASTIC-IRIS-RESPUESTA-INCIDENTES.pdf)
 
 ***
 
@@ -210,6 +210,14 @@ El correo fue enviado desde `joses.slim@outluok.co`, un dominio que aplica **typ
 | Elastic Security + Kibana | Detección de alertas, correlación de eventos, query de kill chain, ML de exfiltración |
 | IRIS | Documentación del incidente, timeline forense, registro de IoCs y assets |
 | Análisis manual (.eml) | Inspección de cabeceras de correo sin herramientas externas |
+
+***
+
+## Infraestructura
+
+Este laboratorio fue ejecutado sobre el SOC Lab propio desplegado con Elastic Stack + Docker. Toda la infraestructura de detección, correlación y respuesta está documentada en el siguiente repositorio:
+
+🔗 [SOC Lab · Elastic Security Threat Detection Platform](https://github.com/Miguel-R13/SOC-Lab-Elastic-Security-Threat-Detection-Platform)
 
 ***
 
