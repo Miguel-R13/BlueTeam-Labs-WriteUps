@@ -70,7 +70,7 @@ $ sha256sum /mnt/hgfs/Forense/muestra
 9d236ad0ee299275c978685308f87a7a631912c3c6bcc4472d96b6aa4f8a6840
 ```
 
-![file y sha256sum de la muestra en Kali Purple](file-sha256sum.png)
+![file y sha256sum de la muestra en Kali Purple](img/file-sha256sum.png)
 
 ---
 
@@ -105,9 +105,9 @@ Extraído mediante `monodis`:
   LauncherUpgradeCode       = "{D0769F44-D459-450F-B084-CAE38062C75B}"
 ```
 
-![Salida de monodis con metadatos del binario troyanizado](monodis.png)
+![Salida de monodis con metadatos del binario troyanizado](img/monodis.png)
 
-![Salida de strings sobre la muestra](strings-trojan.png)
+![Salida de strings sobre la muestra](img/strings-trojan.png)
 
 ### 5.2 Verificación de firma digital
 
@@ -123,7 +123,7 @@ Warning: invalid PE checksum
 Failed
 ```
 
-![Salida de osslsigncode — sin firma y checksum inválido](osslosigncode.png)
+![Salida de osslsigncode — sin firma y checksum inválido](img/osslosigncode.png)
 
 Este es el hallazgo que confirma que el binario es malicioso:
 
@@ -150,7 +150,7 @@ Get-AuthenticodeSignature "$env:USERPROFILE\Downloads\EpicInstaller-20.1.4.exe" 
 | Firma digital | Sin firma | Válida (Authenticode) |
 | Checksum PE | Inválido | Válido |
 
-![Hash y firma digital del instalador oficial de Epic Games](oficial-firma-hash.png)
+![Hash y firma digital del instalador oficial de Epic Games](img/oficial-firma-hash.png)
 
 Los hashes son completamente distintos y el instalador oficial tiene firma digital válida. **Falso positivo descartado con evidencia objetiva.**
 
